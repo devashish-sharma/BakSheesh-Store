@@ -1,4 +1,4 @@
-# BakSheeshStore
+# BakSheesh Store
  BakSheesh Gift Store
  
  Development Using MERN Concept-
