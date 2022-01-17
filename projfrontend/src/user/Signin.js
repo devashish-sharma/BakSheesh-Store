@@ -94,31 +94,8 @@ const Signin = () => {
     );
   }
 
-  const loadingMessage = () => {
-    return (
-      loading && (
-        <div className="alert alert-info">
-          <h2>Loading...</h2>
-        </div>
-      )
-    );
-  };
-
-  const errorMessage = () => {
-    return (
-      <div className="row">
-        <div className="col-md-6 offset-sm-3 text-left">
-          <div
-            className="alert alert-warning alert-dismissible fade show"
-            role="alert"
-            style={{ display: error ? "" : "none" }}
-          >
-            {error}
-          </div>
-        </div>
-      </div>
-    );
-  };
+//errorMessage
+//loadingMessage
 
   return (
     <Base title="Signin Page" description="A Page for user to signin!">
